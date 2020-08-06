@@ -1,0 +1,107 @@
+h1{
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: bold;
+   }
+   h2{
+   font-size: 14px;
+   font-family: sans-serif;
+   font-weight: bold;
+   
+   }
+   header, nav, section, footer, aside, article {
+   
+       display: block;
+   
+   
+   }
+   body {
+   text-align: center;
+   
+   }
+   .agrupar {
+       width:960px;
+       border: 1px solid black ;
+       margin: auto;
+       
+   
+   }
+   .cabecera{
+       background-color: #ffeaa7;
+       border: 5px solid #fdcb6e;
+       padding: 20px;
+ }
+.cabecera h1 {
+
+    text-align: left;
+}
+ .menu{
+
+     background-color: #e17055;   
+     padding: 5px 15px;
+     text-align: left;
+ }
+ .menu li {
+
+list-style: none;
+padding: 5px;
+font: bold 14px verdana;
+display: inline-block;
+ }
+
+ .seccion {
+
+padding:20px;
+width: 60%;
+float: left;
+ }
+article{
+
+    background-color: cornflowerblue;
+    border: 1px solid blue;
+    padding: 20px ;
+    margin-bottom:15px ;
+}
+
+time{
+  color: rgb(7, 32, 80);
+}
+
+article footer {
+
+    text-align: right;
+    margin: 20px;
+
+
+}
+
+ .columna{
+
+    width: 30%;
+    float: left;
+
+   
+ }
+
+ .columna blockquote{
+     border: 2px solid rgb(45, 45, 104);
+     padding: 40px;
+     background: rgb(118, 118, 231);
+     margin: 20px auto;
+
+
+ }
+
+
+ .pie {
+  clear: both;
+  padding: 20px;
+  background: #6c5ce7;
+
+ }
+
+ img{
+     width: 200px;
+     display: block;
+     margin: 20px auto;
+ }
